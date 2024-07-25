@@ -43,7 +43,7 @@ The project deploys the following resources on Azure:
 In this task, I have deployed Virtual Network and assigned subnets for each department. For example
 in this case i assigned "ITSubnet", "MarketingSubnet", "HRSubnet". I used CLI to provide the resources.
 I also provided the NSG (Network Security Group for each subnet to control the flow of internet traffic.)
-![Screenshot of the Subnets](./media/app-grp.png)
+![Screenshot of the Subnets](./media/step1-vnet-subnet.png)
 
 After tasks above, the last objective was to Set up a VPN Gateway to allow secure remote access to Vnet.
 
@@ -67,20 +67,20 @@ simple rules such as allow specific traffic "HTTP"...
 
 After configuring the rules, I created a new vault for backup and did the configuration.
 You can preview the following screenshot:
-![Screenshot of the Backup state](./media/app-grp.png)
+![Screenshot of the Backup state](./media/step2-vm-backup.png)
 
 ## ☁️ Step 3 - Set up and configure Storage Solutions
 
 In this task, I have deployed two storage accounts with the lowest cost.
 I did the configuration for "Lifecycle Management", for example:
 If the files are not updated withing 90s, storage account will switch to Cool tier.
-![Screenshot of the Lifecylce Rule](./media/app-grp.png)
+![Screenshot of the Lifecylce Rule](./media/step3-storage-lifecycle.png)
 
 ## ☁️ Step 4 - Configure and Secure Azure SQL Database
 
 In this task, I have deployed Azure SQL Database and configured the prompted properties.
 I also configured firewall rules and added virtual network to connect to my resource using service endpoints.
-![Screenshot of the Network Rules for SQL](./media/app-grp.png)
+![Screenshot of the Network Rules for SQL](./media/step4-db-firewall.png)
 
 ## ☁️ Step 5 - Set Up and Configure Microsoft Entra ID (formerly Azure AD)
 
