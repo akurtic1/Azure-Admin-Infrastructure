@@ -35,7 +35,7 @@ The project deploys the following resources on Azure:
 + Azure SQL Database: A fully managed SQL database.
 + Microsoft Entra ID: For managing user access and permissions.
 
-![Diagram of the architecture tasks](./media/app-grp.png)
+![Diagram of the architecture tasks](./media/company-v1.png)
 
 
 ## ☁️ Step 1 - Virtual Network & Subnets
